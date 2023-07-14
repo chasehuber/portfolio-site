@@ -4,5 +4,5 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  @apply bg-black
+  @apply bg-black;
 }
