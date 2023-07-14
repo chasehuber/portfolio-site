@@ -18,6 +18,7 @@ function App() {
       <div id="container">
         <Earth />
       </div>
+      <hr className="my-1 w-1/2 mx-auto"/>
       <About />
       <hr className="my-1 w-1/2 mx-auto"/>
       <ProjectHolder />
