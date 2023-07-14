@@ -37,7 +37,7 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix()
 })
 
-loader.load( './src/assets/Earth.glb', function( gltf ) {
+loader.load( './Earth.glb', function( gltf ) {
   gltf.scene.scale.set(0.01, 0.01, 0.01)
   gltf.scene.rotation.x = 0.3
   gltf.scene.rotation.y = (Math.random() * (360 - 1) + 1)
